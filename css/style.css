@@ -1,0 +1,352 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 130px;
+}
+
+.navbar li a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(114, 103, 103);
+  padding: 25px;
+  font-size: 17px;
+}
+
+.btn-nav a {
+  margin-left: 80px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 18px 44px;
+  border: 0px solid #841a30;
+  border-radius: 27px;
+  background: #f8305a;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f8305a),
+    to(#841a30)
+  );
+  background: -moz-linear-gradient(top, #f8305a, #841a30);
+  background: linear-gradient(to bottom, #f8305a, #841a30);
+  -webkit-box-shadow: #3b2c30 0px 2px 55px 0px;
+  -moz-box-shadow: #3b2c30 0px 2px 55px 0px;
+  box-shadow: #3b2c30 0px 2px 7px 0px;
+  font: normal normal 20px arial;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* END OF NAVBAR */
+
+/* START FIRST CONTAINER */
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-block {
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 300px;
+  height: 400px;
+}
+
+.tk-text {
+  margin-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 76px;
+  color: rgb(46, 46, 46);
+  font-weight: 1000;
+}
+
+.searching-link {
+  padding-top: 45px;
+  padding-right: 85px;
+  font-size: 18px;
+  color: rgb(218, 81, 127);
+}
+
+.background-img {
+  margin-left: 65px;
+  width: 50%;
+  height: 590px;
+}
+
+.txt-bg {
+  width: 300px;
+  height: 300px;
+}
+
+/* END OF FIRST CONTAINER  */
+
+/* BLUE & WHITE SECTION */
+
+.bw-section {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  display: block;
+}
+
+.blue-box {
+  width: 60%;
+  margin-top: 30px;
+  border-top-right-radius: 2%;
+  height: 450px;
+  background: rgb(75, 75, 150);
+  text-align: center;
+  color: white;
+}
+
+.blue-box h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding-top: 60px;
+}
+
+.blue-box p {
+  padding-top: 25px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.white-box {
+  width: 50%;
+  height: 300px;
+  bottom: 80px;
+  right: 150px;
+  border-top-left-radius: 2%;
+  background: white;
+  position: absolute;
+  text-align: center;
+}
+
+.white-box p {
+  padding: 30px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(126, 121, 121);
+}
+
+/* END OF BLUE & WHITE SECTION */
+
+/* START PROGRAM SECTION */
+
+.program-section {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.props-block {
+  width: 60%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.props-details {
+  width: 300px;
+  height: 220px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.props-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.props-details p {
+  font-size: 17px;
+  color: rgb(77, 72, 72);
+  padding-top: 12px;
+}
+
+.program_corner {
+  width: 30%;
+  height: 600px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.txt-program {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+.txt-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(19, 19, 63);
+  padding-bottom: 10px;
+}
+
+.txt-program p {
+  font-size: 18px;
+  color: rgb(58, 52, 52);
+}
+
+/* END OF PROGRAM SECTION */
+
+/* START CLUB VARIES */
+
+.club-section {
+  width: 100%;
+  height: 600px;
+  background: rgb(248, 236, 236);
+}
+
+.club-title {
+  width: 100%;
+  height: 60px;
+  padding-top: 55px;
+  text-align: center;
+}
+
+.club-title h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(22, 18, 18);
+  padding-bottom: 10px;
+}
+
+.club-title p {
+  color: rgb(43, 38, 38);
+}
+
+.club-variants {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.variant {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+}
+
+.variant img {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.variant h4 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: rgb(26, 26, 41);
+}
+
+.variant p {
+  font-size: 16px;
+  color: rgb(156, 30, 79);
+  padding: 10px;
+}
+
+/* END OF CLUB VARIANTS */
+
+/* START SLIDER BLOCK */
+
+.slider-section {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.yellow-bg {
+  width: 35%;
+  height: 500px;
+  background: rgb(224, 204, 20);
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+
+.quotes-block {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  height: 400px;
+  background: rgb(218, 204, 204);
+  margin-top: 35px;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+
+.quotes-block p {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+/* END OF SLIDER */
+
+/* START SUBS */
+
+.subscription {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.subs-block {
+  width: 35%;
+  height: 400px;
+  margin-top: 100px;
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+}
+
+.subs-block h2 {
+  font-size: 27px;
+  font-weight: bold;
+  color: rgb(8, 5, 56);
+  padding-bottom: 15px;
+}
+
+.subs-block p {
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+#subs {
+  border-radius: 10%;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 130px;
+  background: rgb(26, 26, 31);
+}
