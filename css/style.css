@@ -1,11 +1,14 @@
 .navbar {
   display: flex;
+  max-width: 1300px;
   width: 100%;
   height: 120px;
+  margin-left:100px;
   margin-top: 20px;
 }
 
 .logo {
+  margin-top:15px;
   margin-left: 20px;
 }
 
@@ -18,7 +21,7 @@
   display: flex;
   text-decoration: none;
   color: rgb(114, 103, 103);
-  padding: 25px;
+  padding: 45px;
   font-size: 17px;
 }
 
@@ -49,16 +52,20 @@
   text-decoration: none;
 }
 
+
+
+
 /* END OF NAVBAR */
 
 /* START FIRST CONTAINER */
 
 .container {
+  max-width:1500px;
   display: flex;
   width: 100%;
-  height: 600px;
+  height: 800px;
   text-align: center;
-  margin: 0 auto;
+  margin-left:100px;
 }
 
 .text-block {
@@ -73,7 +80,7 @@
   margin-top: 35px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 76px;
-  color: rgb(46, 46, 46);
+  color:  #4e4c62;
   font-weight: 1000;
 }
 
@@ -111,13 +118,13 @@
   margin-top: 30px;
   border-top-right-radius: 2%;
   height: 450px;
-  background: rgb(75, 75, 150);
+  background:#7f63ff;
   text-align: center;
   color: white;
 }
 
 .blue-box h2 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   padding-top: 60px;
@@ -126,7 +133,9 @@
 .blue-box p {
   padding-top: 25px;
   line-height: 25px;
-  font-size: 18px;
+  margin:0 auto;
+  width: 300px;
+  font-size: 20px;
 }
 
 .white-box {
@@ -142,6 +151,8 @@
 
 .white-box p {
   padding: 30px;
+  margin-left:30px;
+  width: 400px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(126, 121, 121);
@@ -154,11 +165,13 @@
 .program-section {
   width: 100%;
   height: 600px;
+  background:  #ffffff;
+  margin-left:200px;
   display: flex;
 }
 
 .props-block {
-  width: 60%;
+  width: 40%;
   height: 500px;
   display: flex;
   justify-content: space-around;
@@ -189,7 +202,6 @@
   width: 30%;
   height: 600px;
   display: flex;
-
   flex-direction: column;
   justify-content: space-between;
 }
@@ -219,7 +231,7 @@
 .club-section {
   width: 100%;
   height: 600px;
-  background: rgb(248, 236, 236);
+  background:#f7f6ff;
 }
 
 .club-title {
@@ -286,7 +298,7 @@
 .yellow-bg {
   width: 35%;
   height: 500px;
-  background: rgb(224, 204, 20);
+  background:  #ffbf51;
   border-top-right-radius: 2%;
   border-bottom-right-radius: 2%;
 }
@@ -296,7 +308,7 @@
   display: flex;
   align-items: center;
   height: 400px;
-  background: rgb(218, 204, 204);
+  background:  #f7f6ff;
   margin-top: 35px;
   border-top-right-radius: 2%;
   border-bottom-right-radius: 2%;
@@ -350,3 +362,5 @@
   height: 130px;
   background: rgb(26, 26, 31);
 }
+
+
